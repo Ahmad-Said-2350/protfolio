@@ -48,7 +48,9 @@ font-optical-sizing: auto;
 
 
 
-
+.center{
+    text-align: center;
+}
 
 
 
@@ -60,7 +62,7 @@ font-optical-sizing: auto;
 header{
     background-color: #FFF8F3;
     background: url("../images/developer.png"),url(../images/header_bg.png),#FFF8F3;
-    background-position: top left,bottom right;
+    background-position: 23px 38px ,bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
 }
@@ -130,7 +132,7 @@ nav .menu a {
 
 
 
-#about{
+#about,#skills,#resume{
     padding-top: 130px;
 
 }
@@ -159,9 +161,7 @@ nav .menu a {
     font-size: 20px;
 }
 
-#skills{
-    padding-top: 130px;
-}
+
 
 #skills .skills-contener{
     width: 71%;
@@ -198,4 +198,96 @@ nav .menu a {
     color: #757575;
     line-height: 28px;
     
+}
+
+
+.resume-contener hr{
+    margin: 30px 0;
+}
+
+#resume .resume-contener{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+    color: #474747;
+
+}
+
+#resume .resume-contene .sh-sh{
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+
+}
+.resume-card .card-title{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #474747;
+    font-weight: bold;
+
+}
+
+.resume-card .card-info{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #757575;
+    font-weight: 600;
+
+}
+
+.resume-card .card-text{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+
+}
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+footer .fother-contener{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+
+
+.fother-contener .sociol{
+    max-width: 562px;
+
+}
+.fother-contener h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.fother-contener .sociol p{
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.fother-contener .icons a{
+    margin-right:24px ;
+}
+
+.fother-contener form input[type="text"],.fother-contener form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    color: #757575;
 }
